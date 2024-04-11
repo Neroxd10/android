@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Vendor -->
+  <remove-project name="LineageOS/android_vendor_lineage" />
+  <project path="vendor/lineage" name="lenovo-sm8475-devs/android_vendor_lineage" remote="github" revision="lineage-20.0" />
+
+</manifest>
