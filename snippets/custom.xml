@@ -5,4 +5,8 @@
   <remove-project name="LineageOS/android_vendor_lineage" />
   <project path="vendor/lineage" name="lenovo-sm8475-devs/android_vendor_lineage" remote="github" revision="lineage-20.0" />
 
+  <!-- Workaround for our project -->
+  <remove-project name="LineageOS/android_external_tinycompress" />
+  <project path="external/tinycompress" name="lenovo-sm8475-devs/android_external_tinycompress" groups="pdk" remote="github" revision="lineage-20.0" />
+
 </manifest>
