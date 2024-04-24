@@ -9,4 +9,7 @@
   <remove-project name="LineageOS/android_external_tinycompress" />
   <project path="external/tinycompress" name="lenovo-sm8475-devs/android_external_tinycompress" groups="pdk" remote="github" revision="lineage-20.0" />
 
+  <!-- Workaround for taro/kalama video freeze -->
+  <remove-project name="LineageOS/android_frameworks_av" />
+  <project path="frameworks/av" name="lenovo-sm8475-devs/android_frameworks_av" groups="pdk" remote="github" revision="lineage-20.0" />
 </manifest>
