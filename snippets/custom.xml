@@ -15,5 +15,5 @@
 
   <remove-project name="LineageOS/android_frameworks_base" />
   <project path="frameworks/base" name="Neroxd10/android_frameworks_base" groups="pdk" remote="github" revision="lineage-20.0" />
-asde
+  
 </manifest>
