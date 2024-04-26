@@ -13,11 +13,4 @@
   <remove-project name="LineageOS/android_frameworks_av" />
   <project path="frameworks/av" name="lenovo-sm8475-devs/android_frameworks_av" groups="pdk" remote="github" revision="lineage-20.0" />
 
-  <remove-project name="LineageOS/android_frameworks_base" />
-  <project path="frameworks/base" name="Neroxd10/android_frameworks_base" remote="github" revision="lineage-20.0" />
-  
-  <!-- Adding Gapps -->
-  <remote name="MindTheGapps" fetch="https://gitlab.com/MindTheGapps/" />
-  <project path="vendor/gapps" name="vendor_gapps" remote="MindTheGapps" revision="tau" />
-
 </manifest>
