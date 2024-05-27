@@ -3,15 +3,15 @@
 
   <!-- Vendor -->
   <remove-project name="LineageOS/android_vendor_lineage" />
-  <project path="vendor/lineage" name="lenovo-sm8475-devs/android_vendor_lineage" remote="github" revision="lineage-20.0" />
+  <project path="vendor/lineage" name="Neroxd10/android_vendor_lineage" remote="github" revision="lineage20" />
 
   <!-- Workaround for our project -->
   <remove-project name="LineageOS/android_external_tinycompress" />
-  <project path="external/tinycompress" name="lenovo-sm8475-devs/android_external_tinycompress" groups="pdk" remote="github" revision="lineage-20.0" />
+  <project path="external/tinycompress" name="Neroxd10/android_external_tinycompress" groups="pdk" remote="github" revision="lineage-20.0" />
 
   <!-- Workaround for taro/kalama video freeze -->
   <remove-project name="LineageOS/android_frameworks_av" />
-  <project path="frameworks/av" name="lenovo-sm8475-devs/android_frameworks_av" groups="pdk" remote="github" revision="lineage-20.0" />
+  <project path="frameworks/av" name="Neroxd10/android_frameworks_av" groups="pdk" remote="github" revision="lineage-20.0" />
 
   <!-- GameSpace -->
   <remove-project name="LineageOS/android_packages_apps_Settings" />
@@ -20,10 +20,6 @@
   <!-- GameSpace -->
   <remove-project name="LineageOS/android_frameworks_base" />
   <project path="frameworks/base" name="Neroxd10/android_frameworks_base" groups="pdk" remote="github" revision="lineage-20.0" />
-
-  <!-- Safetynet App + Integrity -->
-  <project path="packages/apps/Lineage" name="Neroxd10/android_packages_apps_Lineage" groups="pdk" remote="github" revision="main" />
-
 
 
 </manifest>
